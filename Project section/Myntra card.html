@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra Card</title>
+    <link rel="stylesheet" href="myntra card.css" />
+  </head>
+  <body>
+    <main>
+      <h1>This is MY First Button</h1>
+      <button
+        class="add-to-card"
+        onclick="cardQuentity = cardQuentity +1;  
+      document.querySelector('#add-to-items').innerHTML = `Your bags items has ${cardQuentity}`;"
+      >
+        Add to Card
+      </button>
+      <button
+        class="wishlist"
+        onclick="cardQuentity = cardQuentity -1;  
+      document.querySelector('#add-to-items').innerHTML = `Your bags items has ${cardQuentity}`;"
+      >
+        ❤️WISHLIST
+      </button>
+      <button
+        class="add-to-card"
+        onclick="cardQuentity = cardQuentity +2;  
+      document.querySelector('#add-to-items').innerHTML = `Your bags items has ${cardQuentity}`;"
+      >
+        Add 1+1 Sale Items in Card
+      </button>
+
+      <h1 id="add-to-items">Your bags has 0 Items</h1>
+    </main>
+    <script>
+      let cardQuentity = 0;
+      document.querySelector(
+        "#add-to-items"
+      ).innerHTML = `Your bags items has ${cardQuentity}`;
+    </script>
+  </body>
+</html>

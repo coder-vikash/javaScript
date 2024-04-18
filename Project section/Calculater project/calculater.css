@@ -1,0 +1,26 @@
+#Calculater {
+  border: 1px solid black;
+  border-radius: 1px;
+  width: 200px;
+  background-image: url(./WhatsApp\ Image\ 2024-04-19\ at\ 01.07.09_c94d2559.jpg);
+  background-position: cover;
+  margin-left: 40%;
+}
+
+#display {
+  margin: 10px;
+  width: 85%;
+  font-size: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  height: 45px;
+  width: 45px;
+  margin: 3px;
+}

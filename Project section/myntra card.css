@@ -1,0 +1,21 @@
+* {
+  margin: 3px;
+  padding: 3px;
+}
+h1 {
+  font-size: 30px;
+  color: blueviolet;
+}
+.add-to-card {
+  background-color: lightgreen;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  border-radius: 6px;
+}
+
+.wishlist {
+  background-color: white;
+  padding: 5px 30px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
